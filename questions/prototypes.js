@@ -6,12 +6,12 @@
 // would you tell if the object's bar property had been overridden for the
 // particular object?
 var Thinger = function() {
-  return this;
+	return this;
 };
 
 Thinger.prototype = {
-  bar : 'baz'
+	bar: 'baz'
 };
 
 var foo = new Thinger(),
-    bim = new Thinger();
+	bim = new Thinger();
