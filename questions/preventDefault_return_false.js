@@ -1,5 +1,5 @@
 <div>
-	<a>foo</a>
+	<a href="/doStuff">foo</a>
 </div>
 
 

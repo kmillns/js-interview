@@ -1,0 +1,11 @@
+Basic order:
+- simple click handler
+- preventDefault return false
+- scope and hoisting
+- ternary and bracket property access
+- functional programming
+- module pattern
+- jQuery refactoring
+
+
+Massive credit to Rebecca Murphey: http://rmurphey.com/blog/2010/09/15/in-search-of-javascript-developers-a-gist/
