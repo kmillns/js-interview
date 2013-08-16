@@ -22,3 +22,16 @@
 		doSomething(foo);
 	});
 })(jQuery);
+
+// Alternate fix using deferred objects
+
+(function ($) {
+	var foo;
+
+	$.get('http://localhost/foo', function (data) {
+		foo = 'foo';
+	}).done(function () {
+		doSomething(foo);
+	});
+	
+})(jQuery);

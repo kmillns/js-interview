@@ -43,7 +43,7 @@ var foo = (function (one, two, title) {
 		one: one + title,
 		two: two + title
 	}
-})(one, two, title);
+})(first, second, name);
 
 foo.one === '1foo';
 foo.two === '2foo';
@@ -60,7 +60,7 @@ var foo = (function (one, two) {
 		one: one + name,
 		two: two + name
 	}
-})(one, two);
+})(first, second);
 
 foo.one === '1foo';
 foo.two === '2foo';
